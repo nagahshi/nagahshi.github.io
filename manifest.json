@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Pomodoro",
+  "version": "1.1",
+
+  "description": "Allows the user to make quick notes by clicking a button and entering text into the resulting popup. The notes are saved in storage. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#quicknote",
+
+  "browser_action": {
+    "default_title": "Pomodoro",
+    "default_popup": "index.html"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@pomodoro"
+    }
+  }
+
+}
